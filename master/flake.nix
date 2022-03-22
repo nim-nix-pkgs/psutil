@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-psutil-master.flake = false;
+  inputs.src-psutil-master.ref   = "refs/heads/master";
   inputs.src-psutil-master.owner = "juancarlospaco";
-  inputs.src-psutil-master.ref   = "master";
   inputs.src-psutil-master.repo  = "psutil-nim";
   inputs.src-psutil-master.type  = "github";
   
