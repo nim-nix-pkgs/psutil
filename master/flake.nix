@@ -11,6 +11,7 @@
   inputs.src-psutil-master.ref   = "refs/heads/master";
   inputs.src-psutil-master.owner = "juancarlospaco";
   inputs.src-psutil-master.repo  = "psutil-nim";
+  inputs.src-psutil-master.dir   = "";
   inputs.src-psutil-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
